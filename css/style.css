@@ -52,96 +52,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  font-family: "Noto Serif", serif;
-}
-
-main {
-  flex-grow: 1;
-}
-
-.container {
-  width: 100%;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.header {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.portfolio {
-}
-.portfolio__container {
-}
-.container {
-}
-.portfolio__list {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-.portfolio__item {
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 10px;
-}
-.portfolio__content {
-  display: flex;
-  flex-direction: column;
-}
-
-.portfolio__content__wrapper {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-
-.portfolio__counter {
-  font-size: 25px;
-  opacity: 50%;
-}
-.portfolio__title {
-  font-size: 25px;
-}
-.portfolio__links {
-  margin-left: 30px;
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-.portfolio__link {
-  font-size: 18px;
-}
-.fa-brands {
-}
-.fa-github {
-}
-.fa-solid {
-}
-.fa-link {
-}
-
-.header__title {
-  font-size: 80px;
-}
-.header__description {
-}
-
-.footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-} */
-
-/* === GLOBAL IMPROVEMENTS === */
 body {
   font-family: "Noto Serif", serif;
   background: #f9f9f9;
@@ -255,7 +165,6 @@ a:hover {
   color: #0070f3;
 }
 
-/* === FOOTER === */
 .footer {
   background: #222;
   color: #bbb;
@@ -264,20 +173,17 @@ a:hover {
   text-align: center;
 }
 
-/* === CONTAINER === */
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* === STUNNING BACKGROUND === */
 body {
   background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
   color: #fff;
 }
 
-/* === HEADER WOW === */
 .header {
   background: transparent;
   text-align: center;
@@ -299,7 +205,6 @@ body {
   margin-top: 10px;
 }
 
-/* === PROJECT CARD UPGRADE === */
 .portfolio__item {
   background: #1c1b2d;
   border: 1px solid rgba(255, 255, 255, 0.05);
@@ -311,7 +216,6 @@ body {
   box-shadow: 0 20px 50px rgba(255, 110, 196, 0.2);
 }
 
-/* === TITLES & COUNTERS === */
 .portfolio__counter {
   color: #8be9fd;
 }
@@ -321,7 +225,6 @@ body {
   color: #fff;
 }
 
-/* === LINKS GRADIENT EFFECT === */
 .portfolio__link a {
   font-weight: 600;
   background: linear-gradient(90deg, #ff6ec4, #7873f5);
@@ -343,7 +246,6 @@ body {
   width: 100%;
 }
 
-/* === ICON COLOR POP === */
 .portfolio__link i {
   color: #ffb86c;
   transition: transform 0.3s ease;
@@ -352,7 +254,6 @@ body {
   transform: scale(1.2);
 }
 
-/* === FOOTER === */
 .footer {
   background: #1c1b2d;
   color: #888;
@@ -361,9 +262,6 @@ body {
   text-align: center;
 }
 
-/* === FULL RESPONSIVE ADAPTATION === */
-
-/* === Планшеты и ноутбуки < 1024px === */
 @media (max-width: 1024px) {
   .header__title {
     font-size: 48px;
@@ -380,7 +278,6 @@ body {
   }
 }
 
-/* === Мобильные телефоны < 768px === */
 @media (max-width: 768px) {
   .container {
     padding: 0 16px;
@@ -429,7 +326,6 @@ body {
   }
 }
 
-/* === Маленькие экраны < 480px === */
 @media (max-width: 480px) {
   .header {
     padding: 60px 0;

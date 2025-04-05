@@ -1,5 +1,11 @@
 export default [
   {
+    title: "Product card",
+    github: "https://github.com/Toyirjonov/Product-Card",
+    vercel: "https://product-card-eight-phi.vercel.app/",
+  },
+
+  {
     title: "Stats-preview-card-component",
     github: "https://github.com/Toyirjonov/Stats-preview-card",
     vercel: "https://stats-preview-card-one-pi.vercel.app/",
