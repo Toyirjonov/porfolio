@@ -1,5 +1,11 @@
 export default [
   {
+    title: "My Team",
+    github: "https://github.com/Toyirjonov/My-Team",
+    vercel: "https://my-team-green-one.vercel.app/",
+  },
+
+  {
     title: "Product card",
     github: "https://github.com/Toyirjonov/Product-Card",
     vercel: "https://product-card-eight-phi.vercel.app/",
