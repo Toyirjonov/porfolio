@@ -1,5 +1,11 @@
 export default [
   {
+    title: "Single Page Design Portfolio",
+    github: "https://github.com/Toyirjonov/single-page-design-portfolio",
+    vercel: "https://single-page-design-portfolio-ebon.vercel.app/",
+  },
+
+  {
     title: "My Team",
     github: "https://github.com/Toyirjonov/My-Team",
     vercel: "https://my-team-green-one.vercel.app/",
