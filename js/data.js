@@ -1,5 +1,11 @@
 export default [
   {
+    title: "Tech book club",
+    github: "https://github.com/Toyirjonov/tech-book-club-landing-page",
+    vercel: "https://tech-book-club-landing-page-gold.vercel.app/",
+  },
+
+  {
     title: "Single Page Design Portfolio",
     github: "https://github.com/Toyirjonov/single-page-design-portfolio",
     vercel: "https://single-page-design-portfolio-ebon.vercel.app/",
