@@ -25,8 +25,8 @@ export default [
 
   {
     title: "Stats-preview-card-component",
-    github: "https://github.com/Toyirjonov/Stats-preview-card",
-    vercel: "https://stats-preview-card-one-pi.vercel.app/",
+    github: "https://github.com/Toyirjonov/Stats-preview-card-responsive",
+    vercel: "https://stats-preview-card-responsive.vercel.app/",
   },
 
   {
