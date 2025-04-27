@@ -1,5 +1,11 @@
 export default [
   {
+    title: "Finsweet Agency",
+    github: "https://github.com/Toyirjonov/Finsweet-Agency",
+    vercel: "https://finsweet-agency-phi.vercel.app/",
+  },
+
+  {
     title: "Namanganliklar 24",
     github: "https://github.com/Toyirjonov/namanganliklar-24",
     vercel: "https://namanganliklar-24-teal.vercel.app/",
