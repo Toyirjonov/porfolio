@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Music Player | Macan playlist",
+    github: "https://github.com/Toyirjonov/Music-Player",
+    vercel: "https://music-player-phi-liart.vercel.app/",
+  },
+  {
     title: "Finsweet Agency",
     github: "https://github.com/Toyirjonov/Finsweet-Agency",
     vercel: "https://finsweet-agency-phi.vercel.app/",
