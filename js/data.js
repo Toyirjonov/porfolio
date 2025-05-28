@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Uztube",
+    github: "https://github.com/Toyirjonov/Video-Player",
+    vercel: "https://video-player-gray-beta.vercel.app/",
+  },
+  {
     title: "Music Player | Macan playlist",
     github: "https://github.com/Toyirjonov/Music-Player",
     vercel: "https://music-player-phi-liart.vercel.app/",
