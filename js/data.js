@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Turistic Company",
+    github: "https://github.com/Toyirjonov/Turistic-company",
+    vercel: "https://turistic-company.vercel.app/",
+  },
+  {
     title: "Uztube",
     github: "https://github.com/Toyirjonov/Video-Player",
     vercel: "https://video-player-gray-beta.vercel.app/",
