@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Uzum market",
+    github: "https://github.com/Toyirjonov/Uzum-market-clone",
+    vercel: "https://uzum-market-clone-two.vercel.app/",
+  },
+  {
     title: "Turistic Company",
     github: "https://github.com/Toyirjonov/Turistic-company",
     vercel: "https://turistic-company.vercel.app/",
