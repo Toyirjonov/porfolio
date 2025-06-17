@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Desserts | Exam",
+    github: "https://github.com/Toyirjonov/Desserts",
+    vercel: "https://desserts-tau.vercel.app/",
+  },
+  {
     title: "Uzum market",
     github: "https://github.com/Toyirjonov/Uzum-market-clone",
     vercel: "https://uzum-market-clone-two.vercel.app/",
