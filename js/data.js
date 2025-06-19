@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Random user generator",
+    github: "https://github.com/Toyirjonov/random-user-generator",
+    vercel: "https://amaliyot-tan-nine.vercel.app/",
+  },
+  {
     title: "Desserts | Exam",
     github: "https://github.com/Toyirjonov/Desserts",
     vercel: "https://desserts-tau.vercel.app/",
