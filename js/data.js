@@ -1,5 +1,10 @@
 export default [
   {
+    title: "My Book | Book shop",
+    github: "https://github.com/Toyirjonov/myBook",
+    vercel: "https://my-book-ruby.vercel.app/",
+  },
+  {
     title: "Random user generator",
     github: "https://github.com/Toyirjonov/random-user-generator",
     vercel: "https://amaliyot-tan-nine.vercel.app/",
