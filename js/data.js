@@ -1,5 +1,10 @@
 export default [
   {
+    title: "CUsers",
+    github: "https://github.com/Toyirjonov/cuser-amaliyot",
+    vercel: "https://cuser-amaliyot.vercel.app/",
+  },
+  {
     title: "My Book | Book shop",
     github: "https://github.com/Toyirjonov/myBook",
     vercel: "https://my-book-ruby.vercel.app/",
