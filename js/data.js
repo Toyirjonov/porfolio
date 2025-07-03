@@ -1,8 +1,8 @@
 export default [
   {
     title: "Product Shop",
-    github: "https://github.com/Toyirjonov/Dummy-shop",
-    vercel: "https://dummy-shop-zeta.vercel.app/",
+    github: "https://github.com/Toyirjonov/Shop",
+    vercel: "https://shop-three-mauve.vercel.app/",
   },
   {
     title: "CUsers",
