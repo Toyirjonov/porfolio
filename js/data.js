@@ -1,13 +1,13 @@
 export default [
   {
+    title: "Product Shop",
+    github: "https://github.com/Toyirjonov/Shop",
+    vercel: "https://shop-fawn-sigma.vercel.app/login",
+  },
+  {
     title: "Context Shop",
     github: "https://github.com/Toyirjonov/react-context-practice",
     vercel: "https://react-context-practice-phi.vercel.app/",
-  },
-  {
-    title: "Product Shop",
-    github: "https://github.com/Toyirjonov/Shop",
-    vercel: "https://shop-three-mauve.vercel.app/",
   },
   {
     title: "CUsers",
