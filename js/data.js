@@ -2,7 +2,7 @@ export default [
   {
     title: "Product Shop",
     github: "https://github.com/Toyirjonov/Shop",
-    vercel: "https://shop-fawn-sigma.vercel.app/login",
+    vercel: "https://shop-fawn-sigma.vercel.app",
   },
   {
     title: "Context Shop",
