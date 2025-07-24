@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Pixora",
+    github: "https://github.com/Toyirjonov/pixora",
+    vercel: "https://pixora-weld.vercel.app/login",
+  },
+  {
     title: "Unsplash",
     github: "https://github.com/Toyirjonov/unsplash",
     vercel: "https://unsplash-xi-inky.vercel.app/",
