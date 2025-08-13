@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Imtixon",
+    github: "https://github.com/Toyirjonov/7-oy-imtixon",
+    vercel: "https://7-oy-imtixon-two.vercel.app/",
+  },
+  {
     title: "Pixora",
     github: "https://github.com/Toyirjonov/pixora",
     vercel: "https://pixora-weld.vercel.app/login",
