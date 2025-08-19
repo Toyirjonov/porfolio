@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Dessert",
+    github: "https://github.com/Toyirjonov/dessert",
+    vercel: "https://dessert-kappa.vercel.app/",
+  },
+  {
     title: "Imtixon",
     github: "https://github.com/Toyirjonov/7-oy-imtixon",
     vercel: "https://7-oy-imtixon-two.vercel.app/",
