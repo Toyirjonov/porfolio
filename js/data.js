@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Todo-app",
+    github: "https://github.com/Toyirjonov/todo-app",
+    vercel: "https://todo-app-alpha-ten-34.vercel.app/",
+  },
+  {
     title: "Dessert",
     github: "https://github.com/Toyirjonov/dessert",
     vercel: "https://dessert-kappa.vercel.app/",
