@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Github user search",
+    github: "https://github.com/Toyirjonov/5dars",
+    vercel: "https://user-search-seven.vercel.app/",
+  },
+  {
     title: "Todo-app",
     github: "https://github.com/Toyirjonov/todo-app",
     vercel: "https://todo-app-alpha-ten-34.vercel.app/",
