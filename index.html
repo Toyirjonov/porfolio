@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Toyirjonov Shohruhmirzo | Frontend Developer</title>
+    <meta
+      name="description"
+      content="Frontend Developer specializing in modern web technologies. View my portfolio of 30+ projects."
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
@@ -12,47 +16,417 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="header" id="header">
-      <div class="header__container container">
-        <h1 class="header__title">Toyirjonov Shohruhmirzo</h1>
-        <p class="header__description">
-          Mening o'rganish jarayonidagi loyihalarim.
-        </p>
-      </div>
-    </header>
-    <main class="main">
-      <section class="portfolio" id="portfolio">
-        <div class="portfolio__container container">
-          <ul class="portfolio__list">
-            <template>
-              <li class="portfolio__item">
-                <div class="portfolio__content">
-                  <div class="portfolio__content__wrapper">
-                    <span class="portfolio__counter">15</span>
-                    <h5 class="portfolio__title">Ansoremd</h5>
-                  </div>
-                  <div class="portfolio__links">
-                    <span class="portfolio__link">
-                      <i class="fa-brands fa-github"></i>
-                      <a class="link-github" target="_blank" href="">Github</a>
-                    </span>
-                    <span class="portfolio__link">
-                      <i class="fa-solid fa-link"></i>
-                      <a class="link-vercel" target="_blank" href="">Vercel</a>
-                    </span>
-                  </div>
-                </div>
-              </li>
-            </template>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+      <div class="nav__container container">
+        <a href="#home" class="nav__logo">Toyirjonov</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
           </ul>
         </div>
-      </section>
-    </main>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <canvas class="matrix-canvas" id="matrix-canvas"></canvas>
+      <div class="hero__container container">
+        <div class="hero__content">
+          <span class="hero__greeting">Hello, I'm</span>
+          <h1 class="hero__title">Toyirjonov Shohruhmirzo</h1>
+          <div class="hero__subtitle-wrapper">
+            <span class="hero__subtitle">I'm a </span>
+            <span class="hero__typed" id="typed-text"></span>
+            <span class="hero__cursor">|</span>
+          </div>
+          <p class="hero__description">
+            Passionate frontend developer creating modern, responsive web
+            applications with cutting-edge technologies. Welcome to my digital
+            portfolio.
+          </p>
+          <div class="hero__buttons">
+            <a href="#portfolio" class="btn btn--primary">View My Work</a>
+            <a href="#contact" class="btn btn--outline">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about__container container">
+        <div class="section__header">
+          <span class="section__subtitle">Get To Know More</span>
+          <h2 class="section__title">About Me</h2>
+        </div>
+        <div class="about__content">
+          <div class="about__info">
+            <div class="about__card">
+              <i class="fa-solid fa-award about__card-icon"></i>
+              <h3 class="about__card-title">Experience</h3>
+              <span class="about__card-subtitle"
+                >1+ Years<br />Frontend Development</span
+              >
+            </div>
+            <div class="about__card">
+              <i class="fa-solid fa-briefcase about__card-icon"></i>
+              <h3 class="about__card-title">Projects</h3>
+              <span class="about__card-subtitle"
+                >30+<br />Completed Projects</span
+              >
+            </div>
+            <div class="about__card">
+              <i class="fa-solid fa-graduation-cap about__card-icon"></i>
+              <h3 class="about__card-title">Education</h3>
+              <span class="about__card-subtitle"
+                >Self-Taught<br />Continuous Learning</span
+              >
+            </div>
+          </div>
+          <div class="about__description">
+            <p>
+              I'm a passionate frontend developer who loves creating beautiful
+              and functional web applications. With over 30 completed projects,
+              I specialize in modern JavaScript frameworks and responsive
+              design. I believe in continuous learning and staying up-to-date
+              with the latest web technologies.
+            </p>
+            <p>
+              My journey in web development started with curiosity and has
+              evolved into a passion for creating exceptional user experiences.
+              I enjoy solving complex problems and turning ideas into reality
+              through code.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="skills__container container">
+        <div class="section__header">
+          <span class="section__subtitle">Explore My</span>
+          <h2 class="section__title">Technical Skills</h2>
+        </div>
+        <div class="skills__content">
+          <div class="skills__group">
+            <h3 class="skills__group-title">Frontend Development</h3>
+            <div class="skills__list">
+              <div class="skills__item">
+                <i class="fa-brands fa-html5 skills__icon"></i>
+                <div>
+                  <span class="skills__name">HTML5</span>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+              <div class="skills__item">
+                <i class="fa-brands fa-css3-alt skills__icon"></i>
+                <div>
+                  <span class="skills__name">CSS3</span>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+              <div class="skills__item">
+                <i class="fa-brands fa-js-square skills__icon"></i>
+                <div>
+                  <span class="skills__name">JavaScript</span>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+              <div class="skills__item">
+                <i class="fa-brands fa-react skills__icon"></i>
+                <div>
+                  <span class="skills__name">React</span>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+              <div class="skills__item">
+                <i class="fa-brands fa-sass skills__icon"></i>
+                <div>
+                  <span class="skills__name">Sass</span>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+              <div class="skills__item">
+                <i class="fa-brands fa-bootstrap skills__icon"></i>
+                <div>
+                  <span class="skills__name">Bootstrap</span>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__group">
+            <h3 class="skills__group-title">Tools & Technologies</h3>
+            <div class="skills__list">
+              <div class="skills__item">
+                <i class="fa-brands fa-git-alt skills__icon"></i>
+                <div>
+                  <span class="skills__name">Git</span>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+              <div class="skills__item">
+                <i class="fa-brands fa-github skills__icon"></i>
+                <div>
+                  <span class="skills__name">GitHub</span>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+              <div class="skills__item">
+                <i class="fa-brands fa-figma skills__icon"></i>
+                <div>
+                  <span class="skills__name">Figma</span>
+                  <span class="skills__level">Basic</span>
+                </div>
+              </div>
+              <div class="skills__item">
+                <i class="fa-solid fa-code skills__icon"></i>
+                <div>
+                  <span class="skills__name">VS Code</span>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+              <div class="skills__item">
+                <i class="fa-solid fa-mobile-alt skills__icon"></i>
+                <div>
+                  <span class="skills__name">Responsive Design</span>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+              <div class="skills__item">
+                <i class="fa-solid fa-globe skills__icon"></i>
+                <div>
+                  <span class="skills__name">RESTful APIs</span>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio__container container">
+        <div class="section__header">
+          <span class="section__subtitle">Browse My Recent</span>
+          <h2 class="section__title">Projects Portfolio</h2>
+        </div>
+        <div class="portfolio__filters">
+          <span class="portfolio__filter active-filter" data-filter="all"
+            >All</span
+          >
+          <span class="portfolio__filter" data-filter="react">React</span>
+          <span class="portfolio__filter" data-filter="vanilla"
+            >Vanilla JS</span
+          >
+          <span class="portfolio__filter" data-filter="landing"
+            >Landing Pages</span
+          >
+          <span class="portfolio__filter" data-filter="app">Web Apps</span>
+        </div>
+        <ul class="portfolio__list">
+          <template id="portfolio-template">
+            <li class="portfolio__item" data-category="app">
+              <div class="portfolio__content">
+                <div class="portfolio__image">
+                  <img
+                    src="./images/project-image.webp"
+                    alt="Project Screenshot"
+                  />
+                  <div class="portfolio__overlay">
+                    <div class="portfolio__links">
+                      <a
+                        class="portfolio__link link-github"
+                        target="_blank"
+                        href=""
+                      >
+                        <i class="fa-brands fa-github"></i>
+                      </a>
+                      <a
+                        class="portfolio__link link-vercel"
+                        target="_blank"
+                        href=""
+                      >
+                        <i class="fa-solid fa-external-link-alt"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio__info">
+                  <div class="portfolio__content__wrapper">
+                    <span class="portfolio__counter">01</span>
+                    <h5 class="portfolio__title">Project Title</h5>
+                  </div>
+                  <p class="portfolio__description">
+                    Brief description of the project and technologies used.
+                  </p>
+                  <div class="portfolio__tags">
+                    <span class="portfolio__tag">React</span>
+                    <span class="portfolio__tag">CSS3</span>
+                    <span class="portfolio__tag">API</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </template>
+        </ul>
+        <div class="portfolio__load-more">
+          <button class="btn btn--primary" id="load-more">
+            Load More Projects
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="contact__container container">
+        <div class="section__header">
+          <span class="section__subtitle">Get In Touch</span>
+          <h2 class="section__title">Contact Me</h2>
+        </div>
+        <div class="contact__content">
+          <div class="contact__info">
+            <div class="contact__card">
+              <i class="fa-solid fa-envelope contact__card-icon"></i>
+              <h3 class="contact__card-title">Email</h3>
+              <span class="contact__card-data">shoxruxmirzo134@gmail.com</span>
+              <a
+                href="mailto:toyirjonov.dev@gmail.com"
+                class="contact__card-button"
+              >
+                Send a message <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="contact__card">
+              <i class="fa-brands fa-telegram contact__card-icon"></i>
+              <h3 class="contact__card-title">Telegram</h3>
+              <span class="contact__card-data">@toyirjonov_dev</span>
+              <a
+                href="https://t.me/toyirjonov_dev"
+                target="_blank"
+                class="contact__card-button"
+              >
+                Write me <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="contact__card">
+              <i class="fa-brands fa-github contact__card-icon"></i>
+              <h3 class="contact__card-title">GitHub</h3>
+              <span class="contact__card-data">github.com/Toyirjonov</span>
+              <a
+                href="https://github.com/Toyirjonov"
+                target="_blank"
+                class="contact__card-button"
+              >
+                View Profile <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <form class="contact__form" id="contact-form">
+            <div class="contact__form-div">
+              <label class="contact__form-tag">Name</label>
+              <input
+                type="text"
+                name="name"
+                placeholder="Insert your name"
+                class="contact__form-input"
+                required
+              />
+            </div>
+            <div class="contact__form-div">
+              <label class="contact__form-tag">Mail</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Insert your email"
+                class="contact__form-input"
+                required
+              />
+            </div>
+            <div class="contact__form-div contact__form-area">
+              <label class="contact__form-tag">Message</label>
+              <textarea
+                name="message"
+                placeholder="Write your message"
+                class="contact__form-input"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
-      <p>Toyirjonov Shohruhmirzo &copy; <span id="time"></span></p>
+      <div class="footer__container container">
+        <div class="footer__content">
+          <h3 class="footer__title">Toyirjonov Shohruhmirzo</h3>
+          <ul class="footer__links">
+            <li><a href="#about" class="footer__link">About</a></li>
+            <li><a href="#skills" class="footer__link">Skills</a></li>
+            <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+            <li><a href="#contact" class="footer__link">Contact</a></li>
+          </ul>
+          <div class="footer__social">
+            <a
+              href="https://github.com/Toyirjonov"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://t.me" target="_blank" class="footer__social-link">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer__copy">
+          <p>
+            &copy; <span id="time"></span> Toyirjonov Shohruhmirzo. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
     </footer>
+
+    <!-- Scroll Up Button -->
+    <a href="#" class="scroll-up" id="scroll-up">
+      <i class="fa-solid fa-arrow-up scroll-up__icon"></i>
+    </a>
 
     <!-- JS -->
     <script type="module" src="./js/app.js"></script>
