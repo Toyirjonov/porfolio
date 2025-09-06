@@ -114,6 +114,7 @@ function setActiveLink() {
 
 // Portfolio data with categories and descriptions
 const projectCategories = {
+  "Healthy Recipe": "react",
   "Github user search": "app",
   "Todo-app": "app",
   Dessert: "react",
@@ -148,6 +149,8 @@ const projectCategories = {
 };
 
 const projectDescriptions = {
+  "Healthy Recipe":
+    "A recipe browsing application with search, filters, and detailed cooking instructions.",
   "Github user search":
     "A modern user search application using GitHub API with real-time search functionality.",
   "Todo-app":
@@ -207,6 +210,7 @@ const projectDescriptions = {
 };
 
 const projectTags = {
+  "Healthy Recipe": ["JavaScript", "React", "CSS3"],
   "Github user search": ["JavaScript", "API", "CSS3"],
   "Todo-app": ["JavaScript", "LocalStorage", "CSS3"],
   Dessert: ["HTML5", "CSS3", "JavaScript"],

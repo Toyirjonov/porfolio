@@ -1,3 +1,29 @@
+/* Стили для кнопки закрытия бургер-меню */
+.nav__close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.5rem;
+  background: rgba(36, 36, 54, 0.95);
+  border: none;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 101;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.nav__close:hover {
+  background: #28284a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+.nav__close i {
+  color: #fff;
+  font-size: 1.5rem;
+  pointer-events: none;
+}
 /* ===== GOOGLE FONTS ===== */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
@@ -60,6 +86,20 @@
   }
 }
 
+@media (max-width: 900px) {
+  nav,
+  .navbar,
+  .navigation,
+  .nav__menu {
+    background: #181828 !important;
+    opacity: 1 !important;
+    backdrop-filter: none !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  .nav__menu {
+    border-left: none !important;
+  }
+}
 /* ===== BASE ===== */
 * {
   margin: 0;
@@ -755,7 +795,7 @@ img {
 
 .portfolio__tag {
   background: var(--primary-light-color);
-  color: var(--primary-color);
+  color: #000;
   padding: 0.25rem 0.75rem;
   border-radius: 1rem;
   font-size: var(--smaller-font-size);
@@ -1067,12 +1107,14 @@ img {
     top: 0;
     right: -100%;
     width: 75%;
-    height: 100%;
+    height: auto;
+    max-height: 100vh;
     background: rgba(23, 23, 40, 0.95);
     backdrop-filter: blur(10px);
     border-left: 1px solid var(--border-color);
     padding: 4rem 2rem 2rem;
     transition: right 0.3s ease;
+    overflow-y: auto;
   }
 
   .nav__menu.show-menu {

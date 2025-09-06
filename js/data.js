@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Healthy Recipe",
+    github: "https://github.com/Toyirjonov/healthy-recipe",
+    vercel: "https://healthy-recipe-pi.vercel.app/",
+  },
+  {
     title: "Github user search",
     github: "https://github.com/Toyirjonov/5dars",
     vercel: "https://user-search-seven.vercel.app/",
