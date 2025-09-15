@@ -1,8 +1,8 @@
 export default [
   {
-    title: "Healthy Recipe",
-    github: "https://github.com/Toyirjonov/healthy-recipe",
-    vercel: "https://healthy-recipe-pi.vercel.app/",
+    title: "Healthy Recipe Website",
+    github: "https://github.com/Toyirjonov/healthy-recipe-website",
+    vercel: "https://healthy-recipe-website-smoky.vercel.app/",
   },
   {
     title: "Github user search",
